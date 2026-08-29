@@ -1,0 +1,24 @@
+# 系統檔
+.DS_Store
+Thumbs.db
+
+# 相依套件
+node_modules/
+
+# 環境變數與金鑰
+.env
+.env.*
+*.key
+serviceAccountKey.json
+
+# 建置產出
+dist/
+build/
+.cache/
+
+# 編輯器
+.vscode/
+.idea/
+
+# 記錄檔
+*.log
