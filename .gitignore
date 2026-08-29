@@ -1,15 +1,23 @@
-# 系統檔
-.DS_Store
-Thumbs.db
+# Claude Code 本地設定（可能含 token，絕不上雲）
+.claude/
 
-# 相依套件
-node_modules/
-
-# 環境變數與金鑰
+# 敏感資料
 .env
 .env.*
 *.key
+credentials.*
 serviceAccountKey.json
+
+# 系統檔 / 雲端同步暫存
+.DS_Store
+desktop.ini
+Thumbs.db
+*.tmp
+~$*
+
+# Node.js
+node_modules/
+package-lock.json
 
 # 建置產出
 dist/

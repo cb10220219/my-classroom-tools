@@ -17,11 +17,11 @@
 
 ## 專案資訊
 - 本機資料夾：Google Drive / my-classroom-tools
-- GitHub repo：my-classroom-tools（帳號 cb10220219）
+- GitHub repo：https://github.com/cb10220219/my-classroom-tools （private）
 - Firebase 專案名稱：（待填）
 
 ## 目前進度
 - [x] 建立本機資料夾
 - [x] 建立 CLAUDE.md 與 .gitignore
-- [ ] 建立 GitHub repo 並第一次上傳
+- [x] 建立 GitHub repo 並第一次上傳（private，分支 main）
 - [ ] 決定 Firebase 專案名稱
