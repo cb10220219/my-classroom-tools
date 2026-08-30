@@ -1,27 +1,36 @@
-# my-classroom-tools
+# my-classroom-tools — 我的班級工具總專案
 
-## 這是什麼
-國小班級教學小工具的總專案。
-一個資料夾放所有班級工具，方便共用設定與部署。
+## 對話開始時請先讀
+進度與最近更動都在 Obsidian：`2ndbrain/my-classroom-tools/工作筆記.md`
 
-## 使用者
+## 關於我
 - 國小五年級數學老師
-- 程式初學者：說明請用繁體中文、短句、白話
+- 程式初學者：說明用繁體中文、短句、白話
 - 每次只處理一件事，不要一次給太多步驟
 
-## 工作規則
-- 每個小工具放在 `tools/` 底下各自的資料夾
-- 前端以單一 HTML 檔為主，能直接開就能用
-- 不要在沒說明的情況下大改既有檔案
-- 檔名、專案名稱一旦決定就不要隨意更改
+## 工作模式
+- **加新工具**：說「我想做一個 XXX 工具」→ 建 `tools/<工具名>/` 子資料夾、引導跟著 EP10 影片做
+- **結束工作**：說「**收工**」→ 自動 commit + push + 更新 Obsidian 工作筆記
+- **接續工作**：說「**開工**」或「讀工作筆記、告訴我上次做到哪」
 
-## 專案資訊
-- 本機資料夾：Google Drive / my-classroom-tools
-- GitHub repo：https://github.com/cb10220219/my-classroom-tools （private）
-- Firebase 專案名稱：（待填）
+## 工作桌 + 三個家
+- 📋 GDrive 工作桌：`我的雲端硬碟/my-classroom-tools/`（自動跨電腦同步）
+- 🐙 GitHub repo：https://github.com/cb10220219/my-classroom-tools （public，網頁的家）
+- 📘 Obsidian 駕駛艙：`2ndbrain/my-classroom-tools/工作筆記.md`（想法的家）
+- 🔥 Firebase 專案：（待決定，資料的家）
 
-## 目前進度
-- [x] 建立本機資料夾
-- [x] 建立 CLAUDE.md 與 .gitignore
-- [x] 建立 GitHub repo 並第一次上傳（private，分支 main）
-- [ ] 決定 Firebase 專案名稱
+## 分工原則
+- **檔案內容**：Claude 直接寫
+- **上傳 / 刪除**：Claude 給指令，老師在 Mac 終端機貼上執行
+  （Claude 沒有 GitHub 憑證，也沒有刪除權限）
+
+## 工具清單
+（之後加新工具時會自動更新）
+- （尚無）
+
+## 工作注意事項
+- 學生資料一律去識別化（只用座號 + 班級代號）
+- commit 訊息要寫清楚做了什麼 + 為什麼
+- `.claude/` 絕不 commit（可能含 token）
+- API Key 不要寫死在 HTML（Firebase Config 例外，那設計可公開）
+- 收工前說「收工」讓 Claude 同步三方
